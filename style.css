@@ -1,0 +1,84 @@
+/* Simon Game Button Flash Effects */
+.flash-white {
+    background-color: white !important;
+    transition: background 0.2s;
+}
+
+.flash-green {
+    background-color: #00ff00 !important;
+    transition: background 0.2s;
+}
+
+body.game-over {
+    background-color: #ff4c4c !important;
+    transition: background 0.2s;
+}body{
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn{
+    height: 180px;
+    width: 180px;
+    border: 8px solid #222;
+    border-radius: 20%;
+    margin: 1rem;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18), 0 1.5px 4px rgba(0,0,0,0.15);
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.22), 0 3px 8px rgba(0,0,0,0.18);
+    filter: brightness(1.1);
+}
+.btn-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.line1, .line2 {
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    color: #222;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 2px 8px #fff8, 0 1px 0 #fff;
+}
+h2#high-score {
+    font-size: 1.3rem;
+    color: #0b3d91;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 0 #fff;
+}
+h3 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0 1px 0 #fff;
+}
+.red{
+    background-color: #ff3b30;
+}
+.yellow{
+    background-color: #ffd600;
+}
+.purple{
+    background-color: #8e24aa;
+}
+.green{
+    background-color: #00c853;
+}
