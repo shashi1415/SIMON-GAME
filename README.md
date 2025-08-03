@@ -1,4 +1,7 @@
 echo "# 🎮 Simon Says Game
+## 🎮 Play the Game
+👉 [Click Me to Play Simon Game](https://shashi1415.github.io/SIMON-GAME/)
+
 
 A simple and fun **Simon Says memory game** built using **HTML, CSS, and JavaScript**.  
 Test your memory skills by repeating the correct color sequence as the game progresses to higher levels.
